@@ -11,7 +11,7 @@ import java.util.List;
 
 public class AutomationPractice {
     private final String HOME_PAGE = "http://automationpractice.com/index.php";
-    private final By DRESSES = By.xpath(".//*[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[2]");  //pochemu private final?
+    private final By DRESSES = By.xpath(".//*[@class='sf-menu clearfix menu-content sf-js-enabled sf-arrows']/li[2]");
     private final By ORANGE = By.name("layered_id_attribute_group_13");
 
     private final By TEST = By.xpath(".//*[@class= 'product_list grid row']/li[1]");
